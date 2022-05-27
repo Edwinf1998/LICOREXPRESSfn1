@@ -2,8 +2,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
-
+body{
+    background-color: rgb(164, 163, 172);
+}
 .jefe{
     width: 1600px;
     margin: auto;
