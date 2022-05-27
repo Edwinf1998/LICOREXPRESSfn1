@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(164, 163, 172);
+}
+.jefe{
+    width: 1600px;
+    margin: auto;
+    background-color: rgb(225, 228, 230);
+    box-shadow: 0px 0px 40px 10px rgb(34, 33, 46);
+}
+.cabecera{
+    width: 1600px;
+    height: 100px;
+    display: flex;
+}
+    .logo {
+        width: 200px;
+        height: 100px;
+
+    }
+    .logo img{
+        width: 200px;
+        height: 100px;
+    }
+.barra{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .barra a{
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 40px 0px 40px 0px;
+    }
+    .barra a:hover{
+        color: rgb(255, 0, 0);
+    }
+.regis{
+    width: 200px;
+    height: 100px;
+    padding: 10px 0px;
+    text-align: center;
+}
+    .regis img{
+        width: 50px;
+        height: 50px;
+        margin: 0px 15px;
+    }
+.espacio{
+    height: 25px; 
+}
+    .regresarr{
+        position: absolute;
+        margin: 0px 15px;
+    }
+        .regresarr img{
+            width: 80px;
+        }
+
+.product{
+    width: 1600px;
+    height: 1400px;
+    margin: auto;
+}
+    .titulo{
+        height: 100px;
+        text-align: center;
+        font-family:serif;
+        padding: 15px 0px 0px 0px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .titulo a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    .titulo a:hover{
+        color: rgb(255, 0, 0);
+    }
+    #nel{
+        width: 360px;
+        height: 300px;
+      
+        float: left;
+        position: relative;
+        top: 0px;
+        left: 200px;
+    }
+
+    #nel img{
+        width: 500px;
+        height: 500px;
+      
+        float: left;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    h1{
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        color: brown;
+        position: relative;
+        left: 135px;
+    }
+    table{
+        margin-top: 50px;
+        caption-side: bottom;
+        margin-left: auto;
+        margin-right: 200px;
+        border-collapse: collapse;
+        background-image: linear-gradient(white,rgb(141, 201, 219));
+    }
+    th{
+        background: black;
+        color: white;
+    }
+    
+
+    td,th{
+        border: 2px solid black;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+
+    }
+    h2{
+        text-align: center;
+        position: relative;
+        top: 100px;
+        text-shadow: 1px 1px 1px black;
+        color: brown;
+        font-size: 40px;
+    }
+    #table{
+        margin-top: 100px;
+        caption-side: bottom;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        
+    }
+    .tomar{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(63, 61, 61);
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-weight: 600;
+    }
+        .empresa{
+            width: 1600px;
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.993);
+        }
+            .express{
+                width: 400px;
+                height: 300px;
+                color: rgb(255, 255, 255);
+            }
+                .titul{
+                    height: 100px;
+                    font-size: 30px;
+                    text-align: center;
+                    padding: 30px;
+                }
+                .def{
+                    height: 200px;
+                    text-align: center;
+                    font-size: 15px;
+                    padding: 30px 0px;
+                }
+            .encuentranos{
+                width: 400px;
+                height: 300px; 
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 15px;
+            }       
+            .encu{
+                height: 100px;
+                padding: 15px 0px;
+            }
+            .encuentranos dd{
+                height: 50px;
+                text-align: center;
+            }
+        .informe{
+            width: 400px;
+        }
+            .infor{
+                height: 150px;
+                padding: 25px;
+                text-align: center;
+            }
+            .infor img{
+                width: 150px;
+                height: 100px;
+            }
+                .inform{
+                    height: 150px;
+                    display: flex;
+                }
+                .pag img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 50px 15px;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+        .redes{
+            width: 400px;
+        }
+            .red{
+                height: 100px;
+                text-align: center;
+            }
+            .red img{
+                width: 50px;
+                height: 50px;
+                margin: 25px 0px;
+                border-radius: 10px;
+            }

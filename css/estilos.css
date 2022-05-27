@@ -1,0 +1,453 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.jefe{
+    width: 1600px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px 10px rgb(34, 33, 46);
+}
+.cabecera{
+    width: 1600px;
+    height: 100px;
+    display: flex;
+}
+
+    .logo {
+        width: 200px;
+        height: 100px;
+
+    }
+    .logo img{
+        width: 200px;
+        height: 100px;
+    }
+.barra{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .barra a{
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 40px 0px 40px 0px;
+    }
+    .barra a:hover{
+        color: rgb(255, 0, 0);
+    }
+.regis{
+    width: 200px;
+    height: 100px;
+    padding: 10px 0px;
+    text-align: center;
+}
+    .regis img{
+        width: 50px;
+        height: 50px;
+        margin: 0px 15px;
+    }
+.espacio{
+    height: 25px; 
+}
+.banner{
+    height: 530px;
+    margin: auto;
+    text-align: center;
+}
+    .comen{
+        height: 35px;
+        background-color: rgb(184, 30, 30);
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .banner img{
+        width: 900px;
+        height: 465px;
+        margin: 15px 0px;
+        box-shadow: 0px 0px 30px 5px rgb(34, 33, 46);
+    }
+.ofe{
+    width: 1500px;
+    margin: auto;
+}
+    .tit{
+        height: 70px;
+        padding: 10px 0px;
+        text-align: center;
+        font-family: serif;
+        font-weight: 600;
+        font-size: 45px;
+    }
+    .tit a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    .tit a:hover{
+        color: rgb(255, 0, 0);
+    }
+.fot{
+    width: 375px;
+   float: left;
+    text-align: center;
+}
+    .fot img{
+        width: 300px;
+        height: 270px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 40px 5px rgb(36, 28, 28);
+    }
+        .desc{
+            height: 150px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .desc dt{
+            width: 330px;
+            margin: 10px 22px;
+            border-radius: 10px;
+            background-color: rgb(114, 40, 40);
+            color: rgb(255, 255, 255);
+        }
+        .desc dl{
+            height: 25px;
+            text-align: center;
+        }
+        .desc dd{
+            height: 60px;
+            text-align: left;
+            padding: 5px 15px; 
+        }
+            .tot{
+                padding: 10px 20px;
+                text-align: right; 
+            }
+                .limp{
+                    clear: both;
+                }
+
+.subir{
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+    .subir img{
+        height: 80px;
+        margin: 10px 0px;
+    }
+.tomar{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(63, 61, 61);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+}
+    .empresa{
+        width: 1600px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.993);
+    }
+        .express{
+            width: 400px;
+            height: 300px;
+            color: rgb(255, 255, 255);
+        }
+            .titul{
+                height: 100px;
+                font-size: 30px;
+                text-align: center;
+                padding: 30px;
+            }
+            .def{
+                height: 200px;
+                text-align: center;
+                font-size: 15px;
+                padding: 30px 0px;
+            }
+        .encuentranos{
+            width: 400px;
+            height: 300px; 
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 15px;
+        }       
+        .encu{
+            height: 100px;
+            padding: 15px 0px;
+        }
+        .encuentranos dd{
+            height: 50px;
+            text-align: center;
+        }
+    .informe{
+        width: 400px;
+    }
+        .infor{
+            height: 150px;
+            padding: 25px;
+            text-align: center;
+        }
+        .infor img{
+            width: 150px;
+            height: 100px;
+        }
+            .inform{
+                height: 150px;
+                display: flex;
+            }
+            .pag img{
+                width: 50px;
+                height: 50px;
+                margin: 50px 15px;
+                border-radius: 10px;
+                text-align: center;
+            }
+    .redes{
+        width: 400px;
+    }
+        .red{
+            height: 100px;
+            text-align: center;
+        }
+        .red img{
+            width: 50px;
+            height: 50px;
+            margin: 25px 0px;
+            border-radius: 10px;
+        }
+
+@media screen and (max-width:900px){
+    body{
+        width: 100%;
+        background-color: rgb(164, 163, 172);
+    }
+    .jefe{
+        width: 90%;
+        margin: auto;
+        background-color: rgb(225, 228, 230);
+        box-shadow: 0px 0px 40px 10px rgb(34, 33, 46);
+    }
+    .cabecera{
+        width: 100%;
+        display: flex;
+    }
+        .logo {
+            width: 25%;
+        }
+        .logo img{
+            width: 100%;
+            margin: 15px 0px;
+        }
+    .barra{
+        width: 100%;
+    }
+        .barra a{
+            width: 16%;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+            font-size: 1.5vw;
+            font-weight: 600;
+            margin: 40px 0px 40px 0px;
+        }
+        .barra a:hover{
+            color: rgb(255, 0, 0);
+        }
+    .regis{
+        width: 20%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+        .regis img{
+            width: 25%;
+            height: 50%;
+            margin: 0px 15px;
+        }
+    .espacio{
+        width: 100%;
+        height: 25px; 
+    }
+    .banner{
+        width: 100%;
+        height: 530px;
+        margin: auto;
+    }
+        .comen{
+            height: 25px;
+            background-color: rgb(184, 30, 30);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 2vw;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .banner img{
+            width: 80%;
+            height: 475px;
+            box-shadow: 0px 0px 30px 5px rgb(34, 33, 46);
+        }
+    .ofe{
+        width: 100%;
+        margin: auto;
+    }
+        .tit{
+            height: 70px;
+            padding: 10px 0px;
+            text-align: center;
+            font-family: serif;
+            font-weight: 600;
+            font-size: 3.5vw;
+        }
+        .tit a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .tit a:hover{
+            color: rgb(255, 0, 0);
+        }
+    .fot{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+        .fot img{
+            width: 80%;
+            height: 270px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px 10px rgb(36, 28, 28);
+        }
+            .desc{
+                height: 150px;
+                font-size: 2vw;
+                font-weight: 600;
+            }
+            .desc dt{
+                width: 85%;
+                margin: 10px 25px;
+                border-radius: 10px;
+                background-color: rgb(114, 40, 40);
+                color: rgb(255, 255, 255);
+            }
+            .desc dl{
+                height: 25px;
+                text-align: center;
+            }
+            .desc dd{  
+                height: 60px;
+                text-align: left;
+                padding: 5px 20px; 
+            }
+                .tot{
+                    width: 100%;
+                    padding: 10px 20px;
+                    text-align: right; 
+                }
+                    .limp{
+                        clear: both;
+                    }
+            .subir{
+                    width: 100%;
+                    height: 100px;
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                    }
+            .subir img{
+                    width: 10%;
+                    height: 70px;
+                    margin: 15px 0px;
+                }
+
+    .tomar{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(63, 61, 61);
+        color: rgb(255, 255, 255);
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+        .empresa{
+            width: 100%;
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.993);
+        }
+    .express{
+                width: 20%;
+                color: rgb(255, 255, 255);
+            }
+                .titul{
+                    width: 100%;
+                    font-size: 2vw;
+                    text-align: center;
+                    padding: 30px;
+                }
+                .def{
+                    width: 100%;                  
+                    text-align: center;
+                    font-size: 1.5vw;
+                    padding: 30px 0px;
+                }
+    .encuentranos{
+                width: 30%;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 2vw;
+            }
+            .encu{
+                height: 30%;
+                padding: 15px 0px;
+            }
+            .encuentranos dd{
+                height: 50px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+    .informe{
+            width: 30%;
+        }
+            .infor{
+                width: 100%;
+                padding: 25px;
+               
+            }
+            .infor img{
+                width: 100%;
+                height: 100px;
+                text-align: center;
+              
+            }
+                .inform{
+                    width: 100%;
+                    height: 50px;
+                    display: flex;
+                    text-align: center;
+                }
+               
+                .inform img{
+                    width: 100%;
+                    height: 50px;
+                    margin: 50px 15px;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+    .redes{
+            width: 20%;
+        }
+            .red{
+                width: 100%;
+            }
+            .red img{
+                width: 30%;
+                height: 50%;
+                border-radius: 10px;
+            }
+}
